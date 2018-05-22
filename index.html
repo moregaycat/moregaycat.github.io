@@ -1,3 +1,38 @@
+<!--
+This website brought to you by a broken woman
+who refuses to give up and butt stuff
+-->
+
 <html>
-  ha-woh
+  <head>
+    <meta charset="utf-8">
+    <title>cute little kitties corrupting the world with their deviant sex</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .imgbox {
+        display: grid;
+        height: 100%;
+      }
+      .center-fit {
+        max-width: 100%;
+        max-height: 100vh;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div>All kitties are gay. Here's proof.</div>
+    <div>Want to add more kitties? Fork https://github.com/moregaycat/moregaycat.github.io and open a pull request.</div>
+    <div>All Black Trans Women to the front!</div>
+
+    <div class="imgbox" id="pic-goes-here"></div>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+    <script>
+      var imageCount = 3;
+      $('<img class="center-fit" src="pics/' + (Math.floor(Math.random() * imageCount) + 1) + '.jpg" alt="A picture of a cat who enjoys the most depraved sexual acts possible on another safe, sane, and consenting cat. Disgusting!">').appendTo('#pic-goes-here');
+    </script>
+  </body>
 </html>
